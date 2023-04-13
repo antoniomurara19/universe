@@ -1,0 +1,456 @@
+@media (min-width:1201px) and (max-width:1315px){
+    /* nav */
+    header nav ul li{
+        padding:2px 21px;
+    }
+    /* titulo e paragrafo header */
+    header .cont-header h1{
+        margin: 1rem;
+        font-size: 2.1rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 4.3rem;
+    }
+    header .cont-header p{
+        font-size: 0.9rem;
+    }
+    /* travel-box */
+    header .travel-box .cards .card .btn-card a{
+        padding: 8px 17px;
+        font-size: 0.8rem;
+        margin: auto;
+    }
+    header .travel-box .cards .card .btn-card h5{
+        font-size: 1rem;
+    }
+    /* main */
+    /* andromeda */
+    .mq-andromeda-img{
+        display: none;
+    }
+    .cont-main-box-and .video-main-box{
+        width: 1800px;
+        height: 320px;
+        margin: 0.7rem 1rem;
+    }
+    .cont-main-box-text-and h3{
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 1.95rem;
+    }
+    /* pilar */
+    .cont-main-box-text-pi{
+        padding: 3rem 1rem 1rem 1rem;
+    }
+    .cont-main-box-text-pi h3{
+        font-size: 2rem;
+    }
+    .cont-main-box-text-pi p{
+        font-size: 0.9rem;
+        margin: 1rem 1rem 1rem 2rem;
+    }
+    .cont-main-box-text-pi p::first-letter{
+        font-size: 1.5rem;
+    }
+    /* carosel-pilar */
+    .cont-main-box-pi-galeria{
+        width:620px;
+        height:360px;
+    }
+    /* terra */
+    .cont-main-box-text-terra .ppa img{
+        margin: 1rem;
+        width: 55%;
+        height: 50%;
+    }
+    .cont-main-box-text-terra p{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    /* carosel-terra */
+    .cont-main-box-terra-galeria{
+        width:520px ;
+        height:413px;
+        margin: 3rem 3rem 1rem 1rem;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px){
+    /* nav */
+    header nav ul li{
+        padding:2px 15px;
+    }
+    header nav h3{
+        margin-left: 1rem;
+        letter-spacing: 0.7rem;
+        font-size: 2.6rem;
+    }
+    /* titulo e paragrafo header */
+    header .cont-header h1{
+        margin: 1rem;
+        font-size: 2.1rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 4.3rem;
+    }
+    header .cont-header p{
+        font-size: 0.9rem;
+    }
+    /* travel-box */
+    header .travel-box .cards .card img{
+        width: 100%;
+        height: 57%;
+    }
+    header .travel-box .cards .card .btn-card a{
+        padding: 8px 17px;
+        font-size: 0.8rem;
+        margin: auto;
+    }
+    header .travel-box .cards .card .btn-card h5{
+        font-size: 0.7rem;
+    }
+    /* main */
+    /* andromeda */
+    .mq-andromeda-img{
+        display: none;
+    }
+    .cont-main-box-and .video-main-box{
+        width: 600px;
+        height: 100%;
+        margin: 0.7rem 1rem;
+    }
+    .cont-main-box-text-and h3{
+        line-height: 3.5rem;
+        margin-top: 2.5rem;
+    }
+    .cont-main-box-text-and p{
+        display: none;
+    }
+    /* pilar */
+    .cont-main-box-text-pi h3{
+        font-size: 2rem;
+        margin:2rem auto;
+        text-align: center;
+        line-height: 3rem;
+    }
+    .cont-main-box-text-pi p{
+        display: none;
+    }
+    /* carosel-pilar */
+    .cont-main-box-pi-galeria{
+        width:620px;
+        height:360px;
+    }
+    /* terra */
+    .cont-main-box-text-terra h3{
+        width: 100%;
+        font-size: 2.2rem;
+        text-align: center;
+        cursor: default;
+    }
+    .cont-main-box-text-terra .ppa img{
+        margin: 1rem;
+        width: 70%;
+        height: 60%;
+    }
+    .cont-main-box-text-terra p{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    /* carosel-terra */
+    .cont-main-box-terra-galeria{
+        width:520px ;
+        height:413px;
+        margin: 3rem 3rem 1rem 1rem;
+    }
+}
+
+@media (min-width:901px) and (max-width:1024px){
+    /* nav */
+    header nav ul li{
+        padding:2px 13px;
+    }
+    header nav h3{
+        margin-left: 0.5rem;
+        font-size: 2.4rem;
+        letter-spacing: 0.3rem;
+    }
+    /* titulo e paragrafo header */
+    header .cont-header h1{
+        margin: 1rem;
+        font-size: 1.8rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 3.6rem;
+    }
+    header .cont-header p{
+        font-size: 0.7rem;
+    }
+    /* travel-box */
+    header .travel-box{
+        height: 55%;
+    }
+    header .travel-box .cards .card h3{
+        font-size: 0.8rem;
+    }
+    header .travel-box .cards .card img{
+        width: 100%;
+        height: 56%;
+    }
+    header .travel-box .cards .card .btn-card a{
+        padding: 7px 9px;
+        font-size: 0.7rem;
+        margin: auto;
+    }
+    header .travel-box .cards .card .btn-card h5{
+        font-size: 0.6rem;
+    }
+    /* main */
+    main{
+        height: 1700px;
+    }
+    /* andromeda */
+    .mq-andromeda-img{
+        display: none;
+    }
+    .cont-main-box-and .video-main-box{
+        margin: auto;
+        border: none;
+        box-shadow: none;
+    }
+    .cont-main-box-text-and h3{
+        display: none;
+    }
+    .cont-main-box-text-and p{
+        display: none;
+    }
+    /* pilar */
+    .cont-main-box-text-pi{
+        display: none;
+    }
+    /* carosel-pilar */
+    .cont-main-box-pi-galeria{
+        width:620px;
+        height:360px;
+        margin: auto;
+    }
+    /* terra */
+    .cont-main-box-text-terra h3{
+        width: 100%;
+        font-size: 2.2rem;
+        text-align: center;
+        cursor: default;
+    }
+    .cont-main-box-text-terra .ppa img{
+        margin: 1rem;
+        width: 70%;
+        height: 60%;
+    }
+    .cont-main-box-text-terra p{
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+}
+
+@media (min-width:769px) and (max-width:900px){
+    /* nav */
+    header nav ul li{
+        padding:2px 11px;
+    }
+    header nav h3{
+        margin-left: 0.2rem;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    /* titulo e paragrafo header */
+    header .cont-header-box{
+        width: 60%;
+        margin-left: 40%;
+    }
+    header .cont-header h1{
+        margin: 1rem;
+        font-size: 1.8rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 3.6rem;
+    }
+    header .cont-header p{
+        font-size: 0.7rem;
+    }
+    /* travel-box */
+    header .travel-box{
+        height: 50%;
+    }
+    header .travel-box .cards .card h3{
+        font-size: 0.6rem;
+    }
+    header .travel-box .cards .card h3 img{
+        width: 30px;
+        height: 30px;
+    }
+    header .travel-box .cards .card img{
+        width: 100%;
+        height: 50%;
+    }
+    header .travel-box .cards .card .btn-card a{
+        padding: 6px 8px;
+        font-size: 0.6rem;
+        margin: auto;
+    }
+    header .travel-box .cards .card .btn-card h5{
+        font-size: 0.5rem;
+    }
+    /* main */
+    main{
+        height: 1700px;
+    }
+    /* andromeda */
+    .mq-andromeda-img{
+        display: none;
+    }
+    .cont-main-box-and .video-main-box{
+        margin: auto;
+        border: none;
+        box-shadow: none;
+    }
+    .cont-main-box-text-and h3{
+        display: none;
+    }
+    .cont-main-box-text-and p{
+        display: none;
+    }
+    /* pilar */
+    .cont-main-box-text-pi{
+        display: none;
+    }
+    /* carosel-pilar */
+    .cont-main-box-pi-galeria{
+        width:620px;
+        height:360px;
+        margin: auto;
+    }
+    /* terra */
+    .cont-main-box-text-terra h3{
+        width: 100%;
+        font-size: 2.2rem;
+        text-align: center;
+        cursor: default;
+    }
+    .cont-main-box-text-terra .ppa img{
+        margin: 1rem;
+        width: 70%;
+        height: 60%;
+    }
+    .cont-main-box-text-terra p{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+}
+
+@media (min-width:375px) and (max-width:768px){
+    /* nav */
+    header nav ul li{
+        padding:2px 9px;
+    }
+    header nav ul{
+        margin: auto;
+    }
+    header nav h3{
+        display: none;
+    }
+    header nav ul li a{
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    header nav ul li:nth-child(5){
+        padding:5px 0.8rem;
+    }
+    /* titulo e paragrafo header */
+    header .cont-header-box{
+        width: 80%;
+        margin-left: 20%;
+    }
+    header .cont-header h1{
+        margin: 2rem 1rem;
+        font-size: 1.35rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 2rem;
+    }
+    header .cont-header p{
+        font-size: 0.6rem;
+    }
+    /* travel-box */
+    .card-paris{
+        display: none;
+    }
+    .card-africa{
+        display: none;
+    }
+    header .travel-box{
+        height: 50%;
+    }
+    header .travel-box .cards .card h3{
+        font-size: 0.9rem;
+    }
+    header .travel-box .cards .card h3 img{
+        width: 30px;
+        height: 30px;
+    }
+    header .travel-box .cards .card img{
+        width: 100%;
+        height: 57%;
+    }
+    header .travel-box .cards .card .btn-card a{
+        padding: 6px 8px;
+        font-size: 0.6rem;
+        margin: auto;
+    }
+    header .travel-box .cards .card .btn-card h5{
+        font-size: 0.6rem;
+    }
+    /* main */
+    main{
+        height: 1700px;
+    }
+    /* andromeda */
+    .cont-main-box-and .video-main-box{
+        display: none;
+    }
+    .cont-main-box-text-and h3{
+        display: none;
+    }
+    .cont-main-box-text-and{
+       width: 60%;
+    }
+    .mq-andromeda-img{
+        display: block;
+        margin: auto;
+        border-radius: 10px ;
+        border: 4px solid white;
+        box-shadow: 4px 4px 200px white;
+    }
+    .mq-andromeda-img img{
+        height: 300px;
+        width: 170px;
+        border-radius: 10px;
+    }
+    /* pilar */
+    .cont-main-box-text-pi{
+        display: none;
+    }
+    /* carosel-pilar */
+    .cont-main-box-pi-galeria{
+        width:640px;
+        height:320px;
+        margin: auto;
+    }
+    /* terra */
+    .cont-main-box-text-terra{
+        display: none;
+    }
+    /* carosel-terra */
+    .cont-main-box-terra-galeria{
+        margin:auto;
+    }
+}

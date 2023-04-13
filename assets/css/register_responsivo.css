@@ -1,0 +1,88 @@
+@media (min-width:1025px) and (max-width:1315px) {
+    /* nav */
+    header nav ul li{
+        padding:2px 15px;
+    }
+    header nav h3{
+        margin-left: 0.6rem;
+        letter-spacing: 0.7rem;
+        font-size: 2.5rem;
+    }
+    /* titulo e paragrafo header */
+    header .cont-header h1{
+        margin: 1rem;
+        font-size: 2.1rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 4.3rem;
+    }
+    header .cont-header p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    /* nav */
+    header nav ul li{
+        padding:2px 9px;
+    }
+    header nav h3{
+        margin-left: 0.5rem;
+        letter-spacing: 0.3rem;
+        font-size: 2rem;
+    }
+    header nav ul li a{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    /* titulo e paragrafo header */
+    header .cont-header-box{
+        width: 70%;
+        margin-left: 30%;
+    }
+    header .cont-header h1{
+        margin: 1rem;
+        font-size: 2.1rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 4.3rem;
+    }
+    header .cont-header p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width:375px) and (max-width:768px) {
+    /* nav */
+    header nav ul{
+        margin:0.6rem auto;
+    }
+    header nav ul li{
+        padding:2px 9px;
+    }
+    header nav h3{
+        display: none;
+    }
+    header nav ul li a{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    /* titulo e paragrafo header */
+    header .cont-header-box{
+        width: 85%;
+        margin-left: 15%;
+    }
+    header .cont-header h1{
+        margin: 1rem;
+        font-size: 1.7rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 3rem;
+    }
+    header .cont-header p{
+        width: 80%;
+        float: right;
+        font-size: 0.6rem;
+        font-weight: 700;
+    }
+}
