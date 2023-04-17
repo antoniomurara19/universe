@@ -47,6 +47,8 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    margin-left: 5%;
 }
 
 header nav ul{
@@ -99,9 +101,6 @@ header nav ul li:nth-last-child(2):hover{
 header nav span{
     overflow-y: hidden;
 }
-.menu{
-    display: none;
-}
 
 /* content-header */
 
@@ -127,7 +126,7 @@ header .cont-header h1{
     font-size: 2.7rem;
     animation: bounce-in-top 1.5s both;
     color: #fff;
-    margin-top:2rem;
+    margin-top:6rem;
 }
 header .cont-header h1::first-letter{
     font-size: 5rem;
@@ -138,7 +137,7 @@ header .cont-header p{
     color: #fff;
     font-weight: 600;
     animation: bounce-in-top 1.5s both;
-    margin-top: 4rem;
+    margin-top: 0.5rem;
 }
 @keyframes bounce-in-top{
     0%{
@@ -178,7 +177,7 @@ header .cont-header p{
 }
 .cont-header-desconto{
     width: 30%;
-    margin: 10rem 3rem;
+    margin: 15rem 3rem 2rem 2rem;
     color: #fff;
     letter-spacing:-1px;
     cursor: default;
@@ -271,7 +270,7 @@ header .cont-header p{
     border: 3px solid blue;
     height: 35vh;
     margin-top:30vh ;
-    padding-top: 10vh;
+    padding-top: 5vh;
 }
 .centauri-desconto-cont h2{
     color: #fff;
@@ -409,7 +408,7 @@ header .cont-header p{
     border: 3px solid blue;
     height: 35vh;
     margin-top:25vh ;
-    padding-top: 10vh;
+    padding-top: 5vh;
 }
 .saturno-desconto-cont h2{
     color: #fff;
