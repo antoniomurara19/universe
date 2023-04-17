@@ -196,9 +196,10 @@ header .cont-header p{
     background-color: #fff;
     color: #000;
     transition: var(--trans);
-}    
+}
 
-/* ------ andromeda ------- */
+/* main */
+/*  andromeda  */
 .andromeda{
     width: 100vw;
     height: 110vh;
@@ -206,23 +207,229 @@ header .cont-header p{
     background:url("/assets/img/andromeda.jpg")no-repeat center/cover;
     overflow-y: hidden;
     display: flex;
-    /* justify-content: space-between; */
-}
-.info-andromeda{
-    border:4px solid #f00 ;
-    height: 90vh;
-    width: 30vw;
-    margin: 10vh 2rem 10vh 2rem;
+    border: 4px solid green;
 }
 .andromeda-desconto{
     border: 3px solid yellow;
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.andromeda-desconto h2{
+.andromeda-desconto-info-basica h2{
     color: #fff;
+    margin: 1rem;
+}
+.andromeda-desconto-info-basica{
+    margin: 15vh 0.1rem 15vh 1rem;
+}
+.andromeda-desconto-cont{
+    border: 3px solid blue;
+    height: 40vh;
+    margin-top:25vh ;
+    padding-top: 10vh;
+}
+.andromeda-desconto-cont h2{
+    color: #fff;
+    margin:2rem;
+}
+.andromeda-desconto-cont button{
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+.andromeda-desconto-cont button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: var(--trans);
+}
+/*  centauri-b  */
+.centauri{
+    width: 100vw;
+    height: 110vh;
+    margin: auto;
+    background:url("/assets/img/centauri-b.jpg")no-repeat center/cover;
+    overflow-y: hidden;
+    display: flex;
+    border: 4px solid green;
+}
+.centauri-desconto{
+    border: 3px solid yellow;
+    width:35vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.centauri-desconto-info-basica h2{
+    color: #fff;
+    margin: 1rem;
+}
+.centauri-desconto-info-basica{
+    margin: 15vh 0.1rem 15vh 1rem;
+}
+.centauri-desconto-cont{
+    border: 3px solid blue;
+    height: 35vh;
+    margin-top:30vh ;
+    padding-top: 10vh;
+}
+.centauri-desconto-cont h2{
+    color: #fff;
+    margin:2rem;
+}
+.centauri-desconto-cont button{
+    padding: 1rem 3rem;
+    margin-left: 2rem;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+.centauri-desconto-cont button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: var(--trans);
+}
+/*  marte  */
+.marte{
+    width: 100vw;
+    height: 110vh;
+    margin: auto;
+    background:url("/assets/img/marte.png")no-repeat center/cover;
+    overflow-y: hidden;
+    display: flex;
+    border: 4px solid green;
+}
+.marte-desconto{
+    border: 3px solid yellow;
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.marte-desconto-info-basica h2{
+    color: #fff;
+    margin: 1rem;
+}
+.marte-desconto-info-basica{
+    margin: 15vh 0.1rem 15vh 1rem;
+}
+.marte-desconto-cont{
+    border: 3px solid blue;
+    height: 35vh;
+    margin-top:25vh ;
+    padding-top: 10vh;
+}
+.marte-desconto-cont h2{
+    color: #fff;
+    margin:2rem;
+}
+.marte-desconto-cont button{
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+.marte-desconto-cont button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: var(--trans);
+}
+/*  netuno  */
+.netuno{
+    width: 100vw;
+    height: 110vh;
+    margin: auto;
+    background:url("/assets/img/netuno.jpg")no-repeat center/cover;
+    overflow-y: hidden;
+    display: flex;
+    border: 4px solid green;
+}
+.netuno-desconto{
+    border: 3px solid yellow;
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.netuno-desconto-info-basica h2{
+    color: #fff;
+    margin: 1rem;
+}
+.netuno-desconto-info-basica{
+    margin: 15vh 0.1rem 15vh 1rem;
+}
+.netuno-desconto-cont{
+    border: 3px solid blue;
+    height: 35vh;
+    margin-top:25vh ;
+    padding-top: 10vh;
+}
+.netuno-desconto-cont h2{
+    color: #fff;
+    margin:2rem;
+}
+.netuno-desconto-cont button{
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+.netuno-desconto-cont button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: var(--trans);
+}
+/*  saturno  */
+.saturno{
+    width: 100vw;
+    height: 110vh;
+    margin: auto;
+    background:url("/assets/img/saturno.png")no-repeat center/cover;
+    overflow-y: hidden;
+    display: flex;
+    border: 4px solid green;
+}
+.saturno-desconto{
+    border: 3px solid yellow;
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.saturno-desconto-info-basica h2{
+    color: #fff;
+    margin: 1rem;
+}
+.saturno-desconto-info-basica{
+    margin: 15vh 0.1rem 15vh 1rem;
+}
+.saturno-desconto-cont{
+    border: 3px solid blue;
+    height: 35vh;
+    margin-top:25vh ;
+    padding-top: 10vh;
+}
+.saturno-desconto-cont h2{
+    color: #fff;
+    margin:2rem;
+}
+.saturno-desconto-cont button{
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+.saturno-desconto-cont button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: var(--trans);
 }
 
-
-/* main */
 
 
 /* footer */
