@@ -17,9 +17,10 @@ body{
 
 header{
     width: 100vw;
-    height: 100vh;
+    height: 160vh;
     margin: auto;
-    background:url("/assets/img/lua2.jpg")no-repeat center/cover;
+    /* background:url("/assets/img/lua2.jpg")no-repeat center/cover; */
+    background-color: #000;
     overflow-y: hidden;
 }
 header nav a{
