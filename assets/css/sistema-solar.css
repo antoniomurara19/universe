@@ -16,6 +16,10 @@
     margin-top:7rem ;
 }
 
+.sistema-solar p{
+    color: #fff;
+}
+
 /* ------orbita config------- */
 
 .orbita-container{
@@ -26,7 +30,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted #ccc;
     overflow-y: hidden;
 }
 
@@ -57,7 +60,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted #ccc;
     overflow-y: hidden;
 }
 .mercurio-container > img{
@@ -76,7 +78,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted #ccc;
     overflow-y: hidden;
 }
 .venus-container > img{
@@ -95,7 +96,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted #ccc;
     overflow-y: hidden;
 }
 .terra-container > img{
@@ -114,7 +114,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted #ccc;
     overflow-y: hidden;
 }
 .marte-container > img{
@@ -133,7 +132,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted #ccc;
     overflow-y: hidden;
 }
 .jupiter-container > img{
@@ -152,7 +150,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted #ccc;
     overflow-y: hidden;
 }
 .saturno-container > img{
@@ -187,7 +184,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dotted #ccc;
     overflow-y: hidden;
 }
 .netuno-container > img{
