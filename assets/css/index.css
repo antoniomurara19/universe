@@ -181,6 +181,10 @@ header .cont-header p{
     letter-spacing:-1px;
     cursor: default;
 }
+.cont-header-desconto button a{
+    text-decoration: none;
+    color: #fff;
+}
 .cont-header-desconto button{
     padding: 1rem 2rem;
     margin: 1rem;
@@ -192,6 +196,10 @@ header .cont-header p{
 }
 .cont-header-desconto button:hover{
     background-color: #fff;
+    color: #000;
+    transition: var(--trans);
+}
+.cont-header-desconto button:hover a{
     color: #000;
     transition: var(--trans);
 }

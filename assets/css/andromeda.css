@@ -17,8 +17,8 @@ body{
 
 header{
     width: 100vw;
-    height: 160vh;
-    margin: auto;
+    height: auto;
+    padding:0.7rem;
     /* background:url("/assets/img/andromeda2.jpg")no-repeat center/cover; */
     background-color: #000;
     overflow-y: hidden;
@@ -104,8 +104,50 @@ header nav span{
 }
 
 /* ----- main ------*/  
+main{
+    height: 100vh;
+    width: 100vw;
+}
+main .container{
+    display: flex;
+    flex-wrap:wrap ;
+}
+main .img{
+    border: 2px solid blue;
+    width:45vw ;
+    height: 60vh;
+    background: url(/assets/img/andromeda2.jpg)no-repeat center/cover;
+}
+main .info{
+    border: 2px solid red;
+    width: 40vw;
+    height: 30vh;
+    cursor: default;
+}
+main .compra{
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+}
+main .compra h3{
+    cursor: default;
+}
+main .compra span{
+    padding: 2px;
+    cursor: pointer;
+}
+main .compra button{
+    cursor: pointer;
+}
+main .contador{
+    display:flex ;
+    border: 2px solid yellow;
+}
+main .contador h4{
+    font-size: 2rem;
+}
 
-/* footer */
+/* ------ footer -------- */
 
 footer{
     width: 100%;
