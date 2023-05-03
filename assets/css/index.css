@@ -19,6 +19,7 @@ header{
     width: 100vw;
     height: 100vh;
     margin: auto;
+    padding: 0.69rem;
     background:url("/assets/img/spacey.jpg")no-repeat center/cover;
     overflow-y: hidden;
 }
@@ -312,7 +313,7 @@ header .cont-header p{
     width: 100vw;
     height: 110vh;
     margin: auto;
-    background:url("/assets/img/marte.png")no-repeat center/cover;
+    background:url("/assets/img/marte2.jpg")no-repeat center/cover;
     overflow-y: hidden;
     display: flex;
 }

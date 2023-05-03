@@ -17,8 +17,8 @@ body{
 
 header{
     width: 100vw;
-    height: 160vh;
-    margin: auto;
+    height: auto;
+    padding:0.7rem;
     /* background:url("/assets/img/marte2.jpg")no-repeat center/cover; */
     background-color: #000;
     overflow-y: hidden;
@@ -103,98 +103,90 @@ header nav span{
     overflow-y: hidden;
 }
 
-/* content-header */
-
-header .cont-header{
-    width: 100%;
-    height: 45%;
-    cursor: default;
-    top: 0;
+/* ----- main ------*/  
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom,#aaa,#7299b3);
 }
-header .cont-header-box{
-    width: 50%;
-    height: auto;
-    margin-left: 40%;
-    text-align: end;
+main .container{
+    display: flex;
+    flex-wrap:wrap ;
 }
-header .cont-header-box-text{
-    letter-spacing: 1px;
-    margin-left: 50%;
-    width: 50%;
-}
-header .cont-header h1{
-    font-size: 2.7rem;
-    animation: bounce-in-top 1.5s both;
-    color: #fff;
-    margin-top:2rem;
-}
-header .cont-header h1::first-letter{
-    font-size: 5rem;
-    font-weight: 1000;
-}
-header .cont-header p{
-    font-size: 0.9rem;
-    color: #fff;
-    font-weight: 600;
-    animation: bounce-in-top 1.5s both;
-    margin-top: 0.5rem;
-}
-@keyframes bounce-in-top{
-    0%{
-        transform: translateY(-500px);
-        animation-timing-function: ease-in;
-        opacity: 0;
-    }
-    38%{
-        transform: translateY(0);
-        animation-timing-function: ease-out;
-        opacity: 1;
-    }
-    55%{
-        transform: translateY(-65px);
-        animation-timing-function: ease-in;
-    }
-    72%{
-        transform: translateY(0);
-        animation-timing-function: ease-out;
-    }
-    81%{
-        transform: translateY(-28px);
-        animation-timing-function: ease-in;
-    }
-    90%{
-        transform: translateY(0);
-        animation-timing-function: ease-out;
-    }
-    95%{
-        transform: translateY(-8px);
-        animation-timing-function: ease-in;
-    }
-    100%{
-        transform: translateY(0);
-        animation-timing-function: ease-out;
-    }
-}
-.cont-header-desconto{
-    width: 30%;
-    margin: 9rem 3rem 2rem 2rem;
-    color: #fff;
-    letter-spacing:-1px;
-    cursor: default;
-}
-.cont-header-desconto button{
-    padding: 1rem 2rem;
-    margin: 1rem;
+main .img{
+    width:45vw ;
+    height: 60vh;
+    background: url(/assets/img/marte.png)no-repeat center/cover;
+    margin-top:5vh ;
     border: 3px solid #fff;
-    background-color: transparent;
-    color: #fff;
-    font-weight: 800;
-    cursor: pointer;
+    border-radius: 50%;
 }
-.cont-header-desconto button:hover{
-    background-color: #fff;
-    color: #000;
+main .image{
+    margin-right: 5vw;
+}
+main .info-planeta{
+    width: 40vw;
+    height: 50vh;
+    cursor: default;
+    margin-top:2vh ;
+}
+main .info-planeta h2{
+    font-size: 3rem;
+    margin: 0px 0px 1rem 0px;
+}
+main .info-viagem{
+    width: 40vw;
+    height: 30vh;
+    cursor: default;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .item{
+    margin-left: 5vw;
+}
+main .compra{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+main .compra h3{
+    cursor: default;
+}
+main .compra span{
+    padding: 2px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+main .compra span:hover{
+    font-weight: 1000;
+    transition: 100ms linear;
+}
+main .compra button{
+    cursor: pointer;
+    padding: 1.2rem;
+    margin-left: 10%;
+    font-weight: 300;
+    background: transparent;
+}
+main .compra button:hover{
     transition: var(--trans);
+    color: #fff;
+    background: #000;
+}
+main .contador{
+    display:flex ;
+}
+main .contador h4{
+    font-size: 3rem;
+}
+main .contador h5{
+    font-size: 3rem;
 }
 
 /* footer */
