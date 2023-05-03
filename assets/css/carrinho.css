@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 body{
     background-color: #e1f4f3;
@@ -15,78 +16,159 @@ body{
 /* header */
 
 header{
-    width: 90vw;
-    height: 100%;
-    border-radius: 10px;
-    margin: auto;
-    border: 3px solid black;
+    width: 100vw;
+    height: auto;
+    padding:0.7rem;
+    /* background:url("/assets/img/andromeda2.jpg")no-repeat center/cover; */
+    background-color: #000;
 }
-
-header nav h3{
-    margin-left: 2rem;
-    letter-spacing: 0.9rem;
+header nav a{
+    text-decoration: none;
+}
+header nav a h3{
+    letter-spacing: -3px;
     font-size: 3rem;
     font-weight: 1000;
-    cursor: default;
+    color: #fff;
+    padding: 2px;
+    opacity: 0.7;
+}
+header nav a h3:hover{
+    opacity: 1;
+    transition: var(--trans);
 }
 
 /* nav */
 
 header nav{
-    width: 95%;
-    height: 9%;
+    width: 100%;
+    height: 10%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 2%;
 }
 
 header nav ul{
     list-style: none;
     display: flex;
+    margin-right: 3%;
 }
-
 header nav ul li{
-    padding:3px 28px;
+    padding:6px 20px;
 }
-
 header nav ul li a{
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-size: 1rem;
-    font-weight: 500;
     transition: .3s linear;
+    position: relative;
+    padding: 4px;
+    font-weight:800;
 }
-
-header nav ul li a:hover{
-    color: gray;
+header nav ul li a::before{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0.2rem;
+    top: 0;
+    left: 0;    
+    margin-top: 25px;
+    background-color: #fff;
+    transition: var(--trans);
 }
-
-header nav ul li:nth-child(6) a{
-    font-weight: 1000;
+header nav ul li a:hover::before{
+    width: 100%;
 }
-
-header nav ul li:nth-child(5){
-    background-color: black;
+header nav ul li:nth-last-child(2) a{
+    color: #000;
+}
+header nav ul li:nth-last-child(2){
+    background-color: #fff;
     border-radius: 1.3rem;
-    padding:8px 1rem;
+    padding:7px 1rem;
+    font-weight: 600;
 }
-
-header nav ul li:nth-child(5) a{
-    color:white ;
+header nav ul li:nth-last-child(2):hover a{
+    color:#fff ;
 }
-
-header nav ul li:nth-child(5):hover{
-    background-color:gray ;
+header nav ul li:nth-last-child(2):hover{
+    background-color:#000 ;
     cursor: pointer;
     transition: var(--trans);
 }
-
-.menu{
-    display: none;
+header nav span{
+    overflow-y: hidden;
 }
 
-/* main */
+/* ----- main ------*/  
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom,#aaa,#7299b3);
+}
+
+.register{
+    width: 100%;
+    margin:4rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+label{
+    color: black;
+    font-size: 1.2rem;
+    margin: 0.3rem;
+    font-weight: 600;
+    display: block;
+}
+.input-text{
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    font-weight: 800;
+    width: 12rem;
+    color: black;
+    border: 2px solid blakc;
+    background-color: transparent;
+}
+
+main button{
+    display: block;
+    margin:1.5rem auto;
+    padding: 1.3rem;
+    background-color: transparent;
+    color: black;
+    font-weight: 1000;
+    border-radius: 10px
+}
+
+button:hover{
+    background-color: darkblue;
+    transition: var(--trans);
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+}
+
+form{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+fieldset{
+   padding: 1rem;
+   border: 3px solid black;
+}
+
+legend{
+    font-size:2rem ;
+    padding: 0px 1rem 0px 1rem;
+}
 
 /* footer */
 
