@@ -103,13 +103,14 @@ header nav span{
     overflow-y: hidden;
 }
 
-/*-----main-----*/
+/* ----- main ------*/  
 main{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     background-image: linear-gradient(to bottom,#aaa,#7299b3);
+    cursor: default;
 }
 main .container{
     display: flex;
@@ -173,6 +174,7 @@ main .compra button{
     margin-left: 10%;
     font-weight: 300;
     background: transparent;
+    cursor: pointer;
 }
 main .compra button:hover{
     transition: var(--trans);
@@ -184,9 +186,11 @@ main .contador{
 }
 main .contador h4{
     font-size: 3rem;
+    color: #fff;
 }
 main .contador h5{
     font-size: 3rem;
+    color: #09003a;
 }
 
 /* footer */
