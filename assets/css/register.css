@@ -10,7 +10,7 @@
     overflow-x: hidden;
 }
 body{
-    background-color: #e1f4f3;
+    background-color: #5d5e69;
 }
 
 /* header */
@@ -103,71 +103,68 @@ header nav span{
 }
 
 /* ----- main ------*/  
+
 main{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to bottom,#aaa,#7299b3);
 }
 
-.register{
-    width: 100%;
-    margin:4rem auto;
+#img-sign-up{
+    width: 50vw;
+    height:80vh;
+}
+.container{
+    width: 30vw;
+    height: 60vh;
+    background-color: #0000006a;
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    box-shadow: 10px 10px 50px #fff;
     display: flex;
+    justify-content: center;
+}
+.register{
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;    
+    width: 25vw;
+    height: auto;
 }
-
-label{
-    color: black;
-    font-size: 1.2rem;
-    margin: 0.3rem;
-    font-weight: 600;
-    display: block;
-}
-.input-text{
-    padding: 0.4rem;
-    border-radius: 0.3rem;
-    font-weight: 800;
-    width: 12rem;
-    color: black;
-    border: 2px solid blakc;
-    background-color: transparent;
-}
-
-main button{
-    display: block;
-    margin:1.5rem auto;
-    padding: 1.3rem;
-    background-color: transparent;
-    color: black;
-    font-weight: 1000;
-    border-radius: 10px
-}
-
-button:hover{
-    background-color: darkblue;
-    transition: var(--trans);
-    transform: scale(1.1);
-    color: white;
+.register button{
+    border: 3px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    background: transparent;
     cursor: pointer;
+    width: 10vw;
+    height: 5vh;
+    margin: 0 auto;
 }
-
-form{
-    width: 30%;
-    margin: auto;
+.register button:hover{
+    background: #000;
+    color: #fff;
+    transition: var(--trans);
+}
+.register label{
+    cursor: default;
+    color: #fff;
+    font-weight: 300;
+}
+.register input{
+    width: 15vw;
+    height: 5vh;
+}
+.cont{
+    background: #fff;
+    color: #000;
+    height:8vh;
+    width: 30vw;
+    font-size: 4rem;
+    margin: 5vh;
+    cursor: default;
     text-align: center;
-}
-
-fieldset{
-   padding: 1rem;
-   border: 3px solid black;
-}
-
-legend{
-    font-size:2rem ;
-    padding: 0px 1rem 0px 1rem;
 }
 
 /* footer */

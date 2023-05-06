@@ -162,6 +162,7 @@ main .compra span{
     padding: 2px;
     cursor: pointer;
     margin-left: 10%;
+    overflow-y: hidden;
 }
 main .compra span:hover{
     font-weight: 1000;
