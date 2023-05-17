@@ -1,13 +1,14 @@
 :root{
     --trans: .3s ease-in-out;
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Raleway', sans-serif;
     overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
 }
 body{
     background-color: #e1f4f3;
@@ -23,9 +24,10 @@ header{
     background:url("/assets/img/spacey.jpg")no-repeat center/cover;
     overflow-y: hidden;
 }
-header nav a{
-    text-decoration: none;
-}
+
+/* nav */
+
+
 header nav a h3{
     letter-spacing: -3px;
     font-size: 3rem;
@@ -38,9 +40,9 @@ header nav a h3:hover{
     opacity: 1;
     transition: var(--trans);
 }
-
-/* nav */
-
+header span{
+    color: #fff;
+}
 header nav{
     width: 100%;
     height: 10%;
@@ -50,7 +52,6 @@ header nav{
     justify-content: space-between;
     margin-left: 2%;
 }
-
 header nav ul{
     list-style: none;
     display: flex;
@@ -60,7 +61,7 @@ header nav ul li{
     padding:4px 20px;
 }
 header nav ul li a{
-    text-decoration: none;
+    
     color: #fff;
     font-size: 1rem;
     transition: .3s linear;
@@ -101,6 +102,42 @@ header nav ul li:nth-last-child(2):hover{
 }
 header nav span{
     overflow-y: hidden;
+}
+.side-bar{
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    left: -200vw;
+    width: 30vw;
+    height: 70vh;
+    border: 2px solid #fff;
+    transition: var(--trans);
+}
+.side-bar-link{
+    text-align: center;
+    padding: 0.7rem 1rem;
+    margin: 0.1rem;
+    border: 2px solid #fff;
+    width: 20vw;
+}
+.side-bar ul{
+    display: flex;
+    flex-direction: column;
+}
+.side-bar-link a{
+    color: #fff;
+    font-weight: 600;
+}
+.close{
+    position: absolute;
+    left: 26.5vw;
+    top: 1vh;
+    font-weight: 1000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.menu{
+    display: none;
 }
 
 /* content-header */
@@ -183,7 +220,7 @@ header .cont-header p{
     cursor: default;
 }
 .cont-header-desconto button a{
-    text-decoration: none;
+    
     color: #fff;
 }
 .cont-header-desconto button{
@@ -238,7 +275,7 @@ header .cont-header p{
 .andromeda-desconto-cont a{
     color: #fff;
     margin:1rem;
-    text-decoration: none;
+    
 }
 .andromeda-desconto-cont button:hover a{
     color: #000;
@@ -289,7 +326,7 @@ header .cont-header p{
 .centauri-desconto-cont a{
     color: #fff;
     margin:1rem;
-    text-decoration: none;
+    
 }
 .centauri-desconto-cont button:hover a{
     color: #000;
@@ -340,7 +377,7 @@ header .cont-header p{
 .marte-desconto-cont a{
     color: #fff;
     margin:1rem;
-    text-decoration: none;
+    
 }
 .marte-desconto-cont button:hover a{
     color: #000;
@@ -391,7 +428,7 @@ header .cont-header p{
 .netuno-desconto-cont a{
     color: #fff;
     margin:1rem;
-    text-decoration: none;
+    
 }
 .netuno-desconto-cont button:hover a{
     color: #000;
@@ -442,7 +479,7 @@ header .cont-header p{
 .saturno-desconto-cont a{
     color: #fff;
     margin:1rem;
-    text-decoration: none;
+    
 }
 .saturno-desconto-cont button:hover a{
     color: #000;
@@ -493,7 +530,7 @@ header .cont-header p{
 .lua-desconto-cont a{
     color: #fff;
     margin:1rem;
-    text-decoration: none;
+    
 }
 .lua-desconto-cont button:hover a{
     color: #000;
@@ -545,7 +582,7 @@ header .cont-header p{
 .criacao-desconto-cont a{
     color: #fff;
     margin:1rem;
-    text-decoration: none;
+    
 }
 .criacao-desconto-cont button:hover a{
     color: #000;

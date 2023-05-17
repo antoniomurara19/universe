@@ -215,15 +215,8 @@ main .carrinho{
     background: #ffffffee;
     position: fixed;
     top: 0px;
-    left: 1210px;
+    right: -500px;
     transition: .3s linear;
-    display: none;
-}
-main .container-carrinho img{
-    width: 7vw;
-    height: 15vh;
-    margin: 5px;
-    border: 2px solid #fff;
 }
 main .container-carrinho h2{
     text-align: center;
@@ -231,20 +224,11 @@ main .container-carrinho h2{
     padding: 1.1rem;
     margin-bottom: 1vh;
 }
-main .container-carrinho-andromeda{
-    background: #000000c9;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    color: #fff;
-}
-main .container-carrinho-andromeda h3{
-    font-size: 1.1rem;
-    font-weight: 300;
-}
-main .container-carrinho-andromeda h4{
-    font-size: 2rem;
-    font-weight: 300;
+main .carrinho span{
+    overflow-y: hidden;
+    vertical-align: sub;
+    font-weight: 1000;
+    cursor: pointer;
 }
 
 /* ------ footer -------- */
