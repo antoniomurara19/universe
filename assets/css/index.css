@@ -20,7 +20,6 @@ header{
     width: 100vw;
     height: 100vh;
     margin: auto;
-    padding: 0.69rem;
     background:url("/assets/img/spacey.jpg")no-repeat center/cover;
     overflow-y: hidden;
 }
@@ -236,6 +235,7 @@ header .cont-header p{
     background-color: #fff;
     color: #000;
     transition: var(--trans);
+    border: 3px solid #000;
 }
 .cont-header-desconto button:hover a{
     color: #000;
@@ -293,6 +293,7 @@ header .cont-header p{
 .andromeda-desconto-cont button:hover{
     background-color: #fff;
     transition: var(--trans);
+    border: 3px solid #000;
 }
 /*  centauri-b  */
 .centauri{
@@ -344,6 +345,7 @@ header .cont-header p{
 .centauri-desconto-cont button:hover{
     background-color: #fff;
     transition: var(--trans);
+    border: 3px solid #000;
 }
 /*  marte  */
 .marte{
@@ -395,6 +397,7 @@ header .cont-header p{
 .marte-desconto-cont button:hover{
     background-color: #fff;
     transition: var(--trans);
+    border: 3px solid #000;
 }
 /*  netuno  */
 .netuno{
@@ -446,6 +449,7 @@ header .cont-header p{
 .netuno-desconto-cont button:hover{
     background-color: #fff;
     transition: var(--trans);
+    border: 3px solid #000;
 }
 /*  saturno  */
 .saturno{
@@ -497,6 +501,7 @@ header .cont-header p{
 .saturno-desconto-cont button:hover{
     background-color: #fff;
     transition: var(--trans);
+    border: 3px solid #000;
 }
 /*  lua  */
 .lua{
@@ -548,6 +553,7 @@ header .cont-header p{
 .lua-desconto-cont button:hover{
     background-color: #fff;
     transition: var(--trans);
+    border: 3px solid #000;
 }
 
 /*  criacao  */
@@ -600,6 +606,7 @@ header .cont-header p{
 .criacao-desconto-cont button:hover{
     background-color: #fff;
     transition: var(--trans);
+    border: 3px solid #000;
 }
 
 /* footer */

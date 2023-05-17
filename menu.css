@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 300vh;
+}
+
+.menu{
+    padding: 8px;
+    background-color: black;
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 4vh;
+}
+.btn-menu{
+    margin-right: 8vw;
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+.navbar{   
+    position: absolute;
+    top: 6.2vh;
+    left: 0;
+    width: 15vw;
+    height: 20vh;
+    background-color: black;
+    color: whitesmoke;
+    transition: 200ms;
+    cursor: pointer;
+}
+.navbar_ativo{
+    left: -200vw;
+    transition: 200ms;
+}
+a:visited{
+    color: whitesmoke;
+}
+.menu-itens{
+    list-style: none;
+}
+.menu-itens a{
+    text-decoration: none;
+}
