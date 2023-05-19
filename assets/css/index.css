@@ -111,6 +111,7 @@ header nav span{
     height: 70vh;
     border: 2px solid #fff;
     transition: var(--trans);
+    z-index: 1;
 }
 .side-bar-link{
     text-align: center;
@@ -136,6 +137,9 @@ header nav span{
     border: 2px solid #fff;
 }
 .menu{
+    display: none;
+}
+.side-bar-link-none{
     display: none;
 }
 
@@ -173,7 +177,6 @@ header .cont-header p{
     color: #fff;
     font-weight: 600;
     animation: bounce-in-top 1.5s both;
-    margin-top: 0.5rem;
 }
 @keyframes bounce-in-top{
     0%{
@@ -213,7 +216,9 @@ header .cont-header p{
 }
 .cont-header-desconto{
     width: 30%;
-    margin: 9rem 3rem 2rem 2rem;
+    position: absolute;
+    top: 550px;
+    left: 30px;
     color: #fff;
     letter-spacing:-1px;
     cursor: default;
@@ -243,6 +248,7 @@ header .cont-header p{
 }
 
 /* main */
+
 /*  andromeda  */
 .andromeda{
     width: 100vw;

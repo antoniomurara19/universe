@@ -5,4 +5,214 @@
     .menu{
         display: block;
     }
+    .cont-header-desconto{
+    top: 450px;
+    left: 30px;
+    }
+}
+@media (max-width:769px){
+    header .cont-header h1{
+        font-size: 2rem;
+    }
+    header .cont-header-box-text{
+        margin-left: 0.1%;
+        width: 100%;
+    }
+    .side-bar{
+        width: 31.5vw;
+    }
+    .cont-header-desconto{
+        top: 350px;
+        left: 500px;
+    }
+    .cont-header-desconto h2{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:426px){
+    header .cont-header h1{
+        font-size: 2rem;
+    }
+    header .cont-header-box{
+        width: 80%;
+        height: auto;
+        margin-left: 15%;
+    }
+    header .cont-header-box-text{
+        margin-left: 0.1%;
+        width: 100%;
+    }
+    .side-bar{
+        width:50vw;
+        height: 80vh;
+    }
+    .side-bar-link{
+        width: 30vw;
+    }
+    .side-bar-link-none{
+        display: block;
+        background: #fff;
+        border: 3px solid #0c082d;
+    }
+    .side-bar-link-none a, .side-bar-link-none span{
+        color: #000;
+    }
+    .close{
+        left: 41vw;
+    }
+    .sol{
+        display: none;
+    }
+    .cont-header-desconto{
+        top: 450px;
+        left: 250px;
+    }
+    .cont-header-desconto h2{
+        display: none;
+    }
+    .cont-header-desconto button{
+        margin: 0;
+        padding: 1rem;
+        width: 30vw;
+    }
+
+    /* ----- andromeda ----- */
+
+    .andromeda{
+        height: 90vh;
+    }
+    .andromeda-desconto-info-basica h2{
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+    .andromeda-desconto-cont h2{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .andromeda-desconto-cont button{
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin: 1.8rem;
+    }
+
+    /* ----- centauri ----- */
+
+    .centauri{
+        height: 90vh;
+    }
+    .centauri-desconto-info-basica h2{
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+    .centauri-desconto-cont h2{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .centauri-desconto-cont button{
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin: 1.8rem;
+    }
+
+    /* ----- marte ----- */
+
+    .marte{
+        height: 90vh;
+    }
+    .marte-desconto-info-basica h2{
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+    .marte-desconto-cont h2{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .marte-desconto-cont button{
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin: 1.8rem;
+    }
+
+    /* ----- netuno ----- */
+
+    .netuno{
+        height: 90vh;
+    }
+    .netuno-desconto-info-basica h2{
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+    .netuno-desconto-cont h2{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .netuno-desconto-cont button{
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin: 1.8rem;
+    }
+
+    /* ----- saturno ----- */
+
+    .saturno{
+        height: 90vh;
+    }
+    .saturno-desconto-info-basica h2{
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+    .saturno-desconto-cont h2{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .saturno-desconto-cont button{
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin: 1.8rem;
+    }
+
+    /* ----- lua ----- */
+
+    .lua{
+        height: 90vh;
+    }
+    .lua-desconto-info-basica h2{
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+    .lua-desconto-cont h2{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .lua-desconto-cont button{
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin: 1.8rem;
+    }
+
+    /* ----- criacao ----- */
+
+    .criacao{
+        height: 90vh;
+    }
+    .criacao-desconto-info-basica h2{
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+    .criacao-desconto-cont h2{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .criacao-desconto-cont button{
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin: 1.8rem;
+    }
 }
