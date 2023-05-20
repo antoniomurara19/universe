@@ -224,7 +224,6 @@ header .cont-header p{
     cursor: default;
 }
 .cont-header-desconto button a{
-    
     color: #fff;
 }
 .cont-header-desconto button{
@@ -248,6 +247,10 @@ header .cont-header p{
 }
 
 /* main */
+
+.criacao-desconto, .lua-desconto, .saturno-desconto, .netuno-desconto, .marte-desconto, .centauri-desconto, .andromeda-desconto{
+    overflow-y: hidden;
+}
 
 /*  andromeda  */
 .andromeda{
@@ -289,7 +292,7 @@ header .cont-header p{
 }
 .andromeda-desconto-cont button{
     padding: 1rem 2rem;
-    margin-left: 2rem;
+    width: 100%;
     border: 3px solid #fff;
     background-color: transparent;
     color: #fff;
@@ -341,7 +344,7 @@ header .cont-header p{
 }
 .centauri-desconto-cont button{
     padding: 1rem 2rem;
-    margin-left: 2rem;
+    width: 100%;
     border: 3px solid #fff;
     background-color: transparent;
     color: #fff;
@@ -393,7 +396,7 @@ header .cont-header p{
 }
 .marte-desconto-cont button{
     padding: 1rem 2rem;
-    margin-left: 2rem;
+    width: 100%;
     border: 3px solid #fff;
     background-color: transparent;
     color: #fff;
@@ -445,7 +448,7 @@ header .cont-header p{
 }
 .netuno-desconto-cont button{
     padding: 1rem 2rem;
-    margin-left: 2rem;
+    width: 100%;
     border: 3px solid #fff;
     background-color: transparent;
     color: #fff;
@@ -497,7 +500,7 @@ header .cont-header p{
 }
 .saturno-desconto-cont button{
     padding: 1rem 2rem;
-    margin-left: 2rem;
+    width: 100%;
     border: 3px solid #fff;
     background-color: transparent;
     color: #fff;
@@ -549,7 +552,7 @@ header .cont-header p{
 }
 .lua-desconto-cont button{
     padding: 1rem 2rem;
-    margin-left: 2rem;
+    width: 100%;
     border: 3px solid #fff;
     background-color: transparent;
     color: #fff;
@@ -602,7 +605,7 @@ header .cont-header p{
 }
 .criacao-desconto-cont button{
     padding: 1rem 2rem;
-    margin-left: 2rem;
+    width: 100%;
     border: 3px solid #fff;
     background-color: transparent;
     color: #fff;

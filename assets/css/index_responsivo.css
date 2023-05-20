@@ -1,3 +1,16 @@
+@media (max-width:1240px){
+    .planetas{
+        display: none
+    }
+    .menu{
+        display: block;
+    }
+    .cont-header-desconto{
+    top: 450px;
+    left: 30px;
+    }
+}
+    
 @media (max-width:1025px){
     .planetas{
         display: none
@@ -10,6 +23,7 @@
     left: 30px;
     }
 }
+
 @media (max-width:769px){
     header .cont-header h1{
         font-size: 2rem;
@@ -22,58 +36,15 @@
         width: 31.5vw;
     }
     .cont-header-desconto{
-        top: 350px;
-        left: 500px;
+        top: 520px;
+        left: 10px;
+        width: 60vw;
+    }
+    .cont-header-desconto h2{
+        display: none;
     }
     .cont-header-desconto h2{
         font-size: 1.5rem;
-    }
-}
-@media (max-width:426px){
-    header .cont-header h1{
-        font-size: 2rem;
-    }
-    header .cont-header-box{
-        width: 80%;
-        height: auto;
-        margin-left: 15%;
-    }
-    header .cont-header-box-text{
-        margin-left: 0.1%;
-        width: 100%;
-    }
-    .side-bar{
-        width:50vw;
-        height: 80vh;
-    }
-    .side-bar-link{
-        width: 30vw;
-    }
-    .side-bar-link-none{
-        display: block;
-        background: #fff;
-        border: 3px solid #0c082d;
-    }
-    .side-bar-link-none a, .side-bar-link-none span{
-        color: #000;
-    }
-    .close{
-        left: 41vw;
-    }
-    .sol{
-        display: none;
-    }
-    .cont-header-desconto{
-        top: 450px;
-        left: 250px;
-    }
-    .cont-header-desconto h2{
-        display: none;
-    }
-    .cont-header-desconto button{
-        margin: 0;
-        padding: 1rem;
-        width: 30vw;
     }
 
     /* ----- andromeda ----- */
@@ -215,4 +186,133 @@
         padding: 0.5rem;
         margin: 1.8rem;
     }
+
+}
+@media (max-width:490px){
+    header .cont-header h1{
+        font-size: 2rem;
+    }
+    header .cont-header-box{
+        width: 85%;
+        margin-left: 10%;
+    }
+    header .cont-header-box-text{
+        margin-left: 0.1%;
+    }
+    .side-bar{
+        width:50vw;
+        height: 80vh;
+    }
+    .side-bar-link{
+        width: 30vw;
+    }
+    .side-bar-link-none{
+        display: block;
+        background: #fff;
+        border: 3px solid #0c082d;
+    }
+    .side-bar-link-none a, .side-bar-link-none span{
+        color: #000;
+    }
+    .close{
+        left: 41vw;
+    }
+    .sol{
+        display: none;
+    }
+    .cont-header-desconto{
+        top: 530px;
+        left: 15px;
+    }
+    .cont-header-desconto h2{
+        display: none;
+    }
+    .cont-header-desconto button{
+        margin: 0;
+        padding: 1rem;
+        width: 30vw;
+    }
+}
+
+@media (max-width:300px){
+    header nav a h3{
+        font-size: 2rem;
+    }
+    header .cont-header h1{
+        font-size: 2rem;
+    }
+    header .cont-header h1::first-letter{
+        font-size: 3rem;
+    }
+    header .cont-header p{
+        font-size: 0.7rem;
+    }
+    header .cont-header-box {
+        width: 95%;
+        margin-left: 05%;
+        text-align: center;
+    }
+    .cont-header-desconto {
+        top: 560px;
+        left: 15px;
+    }
+    .cont-header-desconto button{
+        width: 48vw;
+        margin: auto;
+    }
+    .side-bar{
+        width:100vw;
+        height: 80vh;
+    }
+    .side-bar-link{
+        width: 60vw;
+    }
+    .side-bar-link-none{
+        display: block;
+        background: #fff;
+        border: 3px solid #0c082d;
+    }
+    .close{
+        left: 83vw;
+    }
+    .info-travel{
+        display: none;
+    }
+    .andromeda-desconto-cont button,
+    .centauri-desconto-cont button,
+    .marte-desconto-cont button,
+    .saturno-desconto-cont button,
+    .lua-desconto-cont button,
+    .netuno-desconto-cont button,
+    .criacao-desconto-cont button{
+        margin: 0;
+    }
+
+    .andromeda-desconto-info-basica h2,
+    .centauri-desconto-info-basica h2,
+    .marte-desconto-info-basica h2,
+    .saturno-desconto-info-basica h2,
+    .netuno-desconto-info-basica h2,
+    .criacao-desconto-info-basica h2,
+    .lua-desconto-info-basica h2{
+        font-size: 0.7rem;
+        margin: 0.6rem 1px 0.6rem 1px;
+    }
+
+    footer .input button{
+        width: 30vw;
+        padding: 15px 1px;
+        font-size: 9px;
+    }
+    footer p{
+        width: 90vw;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+    }
+    footer .input input{
+        width: 70vw;
+        padding: 14px 12px;
+        font-size: 10px;
+    }
+    
 }
